@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'SF Mono';
+  src: url('../Fonts/SFMonoRegular.otf');
+}
+* {
+	margin:0;
+	padding:0;
+}
+body{
+	width: 1440px;
+}
+header {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 133px;
+}
+.header-right {
+	display:flex;
+	flex-direction: row;
+	margin-right: 61px;
+}
+.header-left img {
+	width: 395.83px;
+	height: 37.53px;
+	margin: 52.54px 0 0 63.58px;
+}
+.menu-item {
+	font-family: New York Small;
+	font-size: 20px;
+	line-height: 170%;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	padding: 59px 0 40px 0;
+	margin-left: 34px;
+}
+.content {
+	width:100%;
+}
+.main-article {
+	margin: 77px auto 34px auto;
+	width:854px;
+}
+.main-article img {
+	width: 854px;
+	height: 533px;
+}
+.main-article-text {
+	margin-top: 44px;
+	width: 858px;
+	font-family: New York Extra Large;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 100%;
+	text-align: center;
+}
+.main-article-comment {
+	margin: 0 auto;
+	margin-top: 32px;
+	width: 592px;
+	font-family: SF Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 170%;
+	text-align: center;
+}
+.all-articles {
+	padding-top:64px;
+	width:640px;
+	margin:0 auto;
+}
+.articles {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.article {
+	width:304px;
+	margin-bottom:64px;
+}
+.article img {
+	width: 304px;
+	height: 176px;
+}
+.article-text {
+	font-family: SF Pro Display;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	margin-top: 20px;
+}
+.articles-header { 
+	width:100%;
+	font-family: New York Extra Large;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 53px;
+	text-align: center;
+	margin-bottom:39px;
+}

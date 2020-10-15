@@ -1,0 +1,13 @@
+body {
+    background-color:#3a404a;
+    color:#fff;
+}
+header {
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.16);
+}
+.menu-item:hover{
+	border-bottom: 2px solid #fff;
+}
+.all-articles {
+	border-top:2px solid #fff;
+}
